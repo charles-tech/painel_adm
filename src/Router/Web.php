@@ -4,7 +4,7 @@ use League\Plates\Engine;
 
 class Web
 {
-    protected $engine;
+    private $engine;
     public function __construct()
     {
         $this->engine = new Engine(__DIR__ . "/../../themes/");
