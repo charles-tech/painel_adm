@@ -11,7 +11,7 @@ class Web
     }
     public function index()
     {
-        echo $this->engine->render('home',["titlte"=>"Titulo"]);
+        echo $this->engine->render('home',["title"=>"Painel - Home"]);
     }
 
 }
