@@ -4,14 +4,13 @@ use League\Plates\Engine;
 
 class Web
 {
-    private $engine = new Engine("../../themes");
+    protected $engine;
     public function __construct()
     {
-//        $this->engine = new Engine("../../themes");
+        $this->engine = new Engine(__DIR__ . "/../../themes/");
     }
     public function index()
     {
-
         echo $this->engine->render('home',["titlte"=>"Titulo"]);
     }
 

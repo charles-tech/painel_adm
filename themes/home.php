@@ -1,4 +1,4 @@
 <?php
-$this->layout('_template', ['title' => 'User Profile']) ?>
-<h1>Olá Mundo</h1>
+$this->layout('_template', ['title' => 'Painel Adm']) ?>
+<h1>Olá Mundo - Home</h1>
 
